@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/497a0384a3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Instgram foto feed con Booststrap</title>
+</head>
+<body>
+   <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+        <a class="navbar-brand" href="https://www.instagram.com">
+            <i class="fa-brands fa-instagram" style="font: size 20px;"></i>
+        <img src="https://1000marcas.net/wp-content/uploads/2019/11/Logo-Instagram-1-768x432.png" alt="Logo" width="90" height="45" class="d-inline-block align-text-top">
+        </a>
+    <div class="navbar-nav">
+    <button class="btn btn-success mx-2 my-sm-0" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create a new post</button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label"> Caption:</label>
+                <textarea class="form-control" id="message-text">
+                add de caption of your post here
+                </textarea>
+                <i class="fa-solid fa-camera"></i>
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Publish</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-cog"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-lg-end">
+          <li><a class="dropdown-item" href="#">Porfile</a></li>
+          <li><a class="dropdown-item" href="#">Accesibility</a></li>
+          <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+          <div class="dropdown-divider"></div>
+          <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+        </ul>
+       </div>
+      </div>
+    </div>
+  </nav>
+  </div>
+  <nav>
+    <ul class="nav nav-pills my-4 justify-content-center" id="pills-tab" role="tablist"
+      
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">
+          <i class="fa-solid fa-table-cells"></i>
+        </a>
+    </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="grip.html"> 
+          <i class="fas fa-square"></i>
+        </a>
+      </li>
+</ul>
+  </nav>
+<nav>
+  <div class="card-group">
+    <div class="card">
+      <img src="https://fastly.picsum.photos/id/29/4000/2670.jpg?hmac=rCbRAl24FzrSzwlR5tL-Aqzyu5tX_PA95VJtnUXegGU" class="card-img-top" alt="...">
+    </div>
+    <div class="card">
+      <img src="https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA" class="card-img-top img-fluid" alt="...">
+     </div>
+    <div class="card">
+      <img src="https://fastly.picsum.photos/id/25/5000/3333.jpg?hmac=yCz9LeSs-i72Ru0YvvpsoECnCTxZjzGde805gWrAHkM" class="card-img-top img-fluid" alt="...">
+    </div>
+  </div>
+</nav>  
+<nav>
+  <div class="card-group">
+    <div class="card">
+      <img src="https://fastly.picsum.photos/id/19/2500/1667.jpg?hmac=7epGozH4QjToGaBf_xb2HbFTXoV5o8n_cYzB7I4lt6g" class="card-img-top img-fluid" alt="...">
+    </div>
+    <div class="card">
+      <img src="https://fastly.picsum.photos/id/6/5000/3333.jpg?hmac=pq9FRpg2xkAQ7J9JTrBtyFcp9-qvlu8ycAi7bUHlL7I" class="card-img-top img-fluid" alt="...">
+     </div>
+    <div class="card">
+      <img src="https://fastly.picsum.photos/id/15/2500/1667.jpg?hmac=Lv03D1Y3AsZ9L2tMMC1KQZekBVaQSDc1waqJ54IHvo4" class="card-img-top img-fluid" alt="...">
+    </div>
+  </div>
+</nav>  
+<nav>
+  <div class="card-group">
+    <div class="card">
+      <img src="https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ" class="card-img-top" alt="...">
+    </div>
+    <div class="card">
+      <img src="https://fastly.picsum.photos/id/16/2500/1667.jpg?hmac=uAkZwYc5phCRNFTrV_prJ_0rP0EdwJaZ4ctje2bY7aE" class="card-img-top" alt="...">
+     </div>
+    <div class="card">
+      <img src="https://fastly.picsum.photos/id/17/2500/1667.jpg?hmac=HD-JrnNUZjFiP2UZQvWcKrgLoC_pc_ouUSWv8kHsJJY" class="card-img-top" alt="...">
+    </div>
+  </div>
+</nav>  
+    </div>
+  </div>
+</body>
+</html>
